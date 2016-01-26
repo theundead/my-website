@@ -1,7 +1,7 @@
 <html>
 
     <head>
-
+        <link rel="stylesheet" type="text/css" href="../style/register.css">
     </head>
 
     <body>
@@ -9,12 +9,13 @@
         <form action="../form/form_register.php" method="get">
 
             <div>
-                first name: <input type="text" name="name">
+                First name: <input type="text" name="name">
             </div>
             <div>
                 Last name: <input type="text" name="subname">
             </div>
             <div>
+                <span>Birthdate</span>
                 <select>
                     <option>1</option>
                     <option>2</option>
@@ -48,7 +49,7 @@
                     <option>30</option>
                     <option>31</option>
                 </select>
-                <span>/</span>
+                <span></span>
                 <select>
                     <option>1</option>
                     <option>2</option>
@@ -74,9 +75,12 @@
                     <option>2006</option>
                 </select>
             </div>
-            <input type="checkbox" name="subname">
-
+                <span>Man</span>
             <input type="radio" name="subname">
+                <span>Women</span>
+             <input type="radio" name="subname">    
+
+            <input type="checkbox" name="subname">
 
             <textarea rows="4" cols="50"></textarea>
 
